@@ -1,0 +1,380 @@
+﻿DESIGN SYSTEM & VISUAL LANGUAGE
+1. Design Direction
+Design Concept
+Executive Minimalism
+The website should combine:
+    • Corporate credibility 
+    • Consulting-style presentation 
+    • Modern web aesthetics 
+    • Strong typography 
+    • Clean spacing 
+The visual inspiration is closer to:
+    • Consulting firms 
+    • Executive profiles 
+    • Premium SaaS websites 
+Not:
+    • Developer portfolios 
+    • Startup landing pages 
+    • Creative agency experiments 
+
+2. Brand Identity
+Brand Personality
+The design communicates:
+Attribute	Visual Expression
+Trust	Dark navy tones
+Professionalism	Clean layouts
+Leadership	Strong typography
+Stability	Balanced spacing
+Intelligence	Data-focused sections
+Premium quality	Gold accents
+
+3. Color System
+Primary Colors
+Navy — Primary Brand Color
+#0B1F3A
+Usage:
+    • Navbar 
+    • Hero background 
+    • Footer 
+    • Important sections 
+Meaning:
+Authority, trust, professionalism.
+
+Gold — Accent Color
+#C9A227
+Usage:
+    • Highlights 
+    • CTA details 
+    • Achievement indicators 
+    • Small decorative elements 
+Meaning:
+Achievement, excellence, premium quality.
+
+White
+#FFFFFF
+Usage:
+    • Main backgrounds 
+    • Cards 
+    • Text contrast 
+
+Light Gray
+#F5F7FA
+Usage:
+    • Alternate sections 
+    • Background separation 
+
+Dark Text
+#111827
+Usage:
+    • Body text 
+    • Headings 
+
+Color Usage Rule
+Avoid excessive gold.
+Gold is a highlight, not the main color.
+Example:
+GOOD:
+Navy background
+
+White text
+
+Gold button accent
+BAD:
+Gold background everywhere
+The goal is luxury, not decoration.
+
+4. Typography System
+Primary Font
+Inter
+Usage:
+    • Body 
+    • Navigation 
+    • Buttons 
+    • Descriptions 
+Reason:
+Excellent readability.
+Modern.
+Professional.
+
+Heading Font
+Playfair Display
+Usage:
+    • Hero heading 
+    • Major page titles 
+Reason:
+Adds executive/editorial feeling.
+
+Example:
+Hero:
+Driving Operational Excellence Through Strategy and Execution
+Uses Playfair.
+Description:
+Operations professional with 4+ years...
+Uses Inter.
+
+5. Font Scale
+Desktop
+Hero title:
+64px
+Page headings:
+48px
+Section headings:
+36px
+Card titles:
+22px
+Body:
+16px
+
+Mobile
+Hero title:
+40px
+Page headings:
+32px
+Section headings:
+26px
+Body:
+16px
+
+6. Layout System
+Maximum Width
+All content:
+max-width: 1200px
+Centered.
+
+Grid
+Desktop:
+12-column grid
+Mobile:
+1-column layout
+
+Section Spacing
+Large sections:
+120px vertical padding
+Medium:
+80px
+Small:
+40px
+
+7. Component Style
+Buttons
+Two types.
+
+Primary Button
+Example:
+Download CV
+Style:
+Background:
+Navy
+
+Text:
+White
+
+Radius:
+8px
+
+Padding:
+16px 32px
+Hover:
+Slight lift.
+
+Secondary Button
+Example:
+View Experience
+Style:
+Transparent
+
+Border:
+Navy
+
+Text:
+Navy
+
+8. Cards
+Used for:
+    • Skills 
+    • Projects 
+    • Insights 
+    • Statistics 
+Style:
+Background:
+White
+
+Border:
+1px solid #E5E7EB
+
+Radius:
+16px
+
+Padding:
+32px
+
+Shadow:
+Subtle
+
+Hover:
+translateY(-6px)
+with smooth transition.
+
+9. Photography Style
+Very important.
+Avoid:
+    • Random stock photos 
+    • Generic businessmen shaking hands 
+Preferred:
+Professional portrait.
+Style:
+    • Neutral background 
+    • Business casual clothing 
+    • Natural lighting 
+    • Confident expression 
+
+10. Icon System
+Use:
+Lucide Icons
+Reasons:
+    • Clean 
+    • Professional 
+    • Lightweight 
+    • Consistent 
+Examples:
+Operations:
+Settings icon
+Analytics:
+Bar chart
+Projects:
+Briefcase
+Contact:
+Mail
+
+11. Animation System
+Rule:
+Motion should support understanding.
+Never distract.
+
+Page Load
+Hero:
+    • Fade in 
+    • Slight upward movement 
+Duration:
+0.6s
+
+Scroll Animation
+Sections:
+Fade + translate
+Example:
+opacity:0 → 1
+
+y:30px → 0
+
+Cards
+Hover:
+translateY(-5px)
+
+Statistics
+Numbers:
+Count-up animation.
+Example:
+0
+
+↓
+
+4+
+
+12. Border Radius
+Modern but professional.
+System:
+Small:
+8px
+Cards:
+16px
+Large sections:
+24px
+
+13. Shadows
+Minimal.
+Never heavy.
+Example:
+box-shadow:
+0 10px 30px rgba(0,0,0,0.08)
+
+14. Responsive Rules
+Desktop
+Navigation:
+Horizontal
+Cards:
+3-column
+Timeline:
+Horizontal/vertical hybrid
+
+Tablet
+Cards:
+2-column
+
+Mobile
+Everything:
+Single column
+Navbar:
+Hamburger menu
+Buttons:
+Full width when necessary
+
+15. Accessibility Requirements
+Must include:
+    • Proper heading hierarchy 
+    • Alt text for images 
+    • Keyboard navigation 
+    • Good color contrast 
+    • Focus states 
+    • Semantic HTML 
+
+16. Performance Rules
+The website must prioritize speed.
+Requirements:
+    • Optimized images 
+    • Lazy loading 
+    • Minimal dependencies 
+    • Compressed assets 
+    • No unnecessary animations 
+Target:
+90+ Lighthouse score.
+
+17. Design Tokens For Kiro
+When implementing, Kiro should create:
+colors:
+
+primary:
+navy
+
+accent:
+gold
+
+background:
+white
+
+muted:
+gray
+
+
+typography:
+
+heading:
+Playfair Display
+
+body:
+Inter
+
+
+spacing:
+
+section:
+120px
+
+container:
+1200px
+
+Final Design Principle
+The website should feel like:
+"A senior operations professional presenting himself to global organizations."
+Not:
+"Someone showing off a website."
+

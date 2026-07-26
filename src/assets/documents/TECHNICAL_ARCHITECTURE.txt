@@ -1,0 +1,408 @@
+﻿TECHNICAL ARCHITECTURE & COMPONENT STRUCTURE
+1. Technology Stack
+Frontend Framework
+React + Vite
+Reason:
+    • Fast development
+    • Modern ecosystem
+    • Component-based architecture
+    • Excellent performance
+
+Styling
+Tailwind CSS
+Reason:
+    • Consistent design system
+    • Faster UI implementation
+    • Easy responsive development
+    • Matches our design tokens
+
+Animation
+Framer Motion
+Used for:
+    • Page transitions
+    • Scroll reveals
+    • Hero animations
+    • Card interactions
+
+Icons
+Lucide React
+Used for:
+    • Service icons
+    • Navigation icons
+    • Contact icons
+
+Routing
+React Router
+Routes:
+/
+ /about
+ /experience
+ /impact
+ /insights
+ /resume
+ /contact
+
+Forms
+React Hook Form
+Used for:
+    • Contact form
+    • Validation
+    • Better performance
+
+2. Application Architecture
+The application follows a feature-based structure.
+Recommended structure:
+src
+│
+├── assets
+│   ├── images
+│   ├── icons
+│   └── documents
+│
+├── components
+│   │
+│   ├── layout
+│   │   ├── Navbar.jsx
+│   │   ├── Footer.jsx
+│   │   └── Container.jsx
+│   │
+│   ├── ui
+│   │   ├── Button.jsx
+│   │   ├── Card.jsx
+│   │   ├── SectionTitle.jsx
+│   │   └── Badge.jsx
+│   │
+│   ├── sections
+│       ├── Hero.jsx
+│       ├── Expertise.jsx
+│       ├── Statistics.jsx
+│       ├── ExperienceTimeline.jsx
+│       ├── ImpactCard.jsx
+│       └── ContactCTA.jsx
+│
+├── pages
+│   ├── Home.jsx
+│   ├── About.jsx
+│   ├── Experience.jsx
+│   ├── Impact.jsx
+│   ├── Insights.jsx
+│   ├── Resume.jsx
+│   └── Contact.jsx
+│
+├── data
+│   ├── experience.js
+│   ├── projects.js
+│   ├── skills.js
+│   └── articles.js
+│
+├── hooks
+│
+├── utils
+│
+├── App.jsx
+│
+└── main.jsx
+
+3. Component Philosophy
+Every component should have one responsibility.
+Bad:
+HomePage.jsx
+
+500 lines
+
+Hero
+Skills
+Projects
+Contact
+Footer
+Avoid this.
+
+Good:
+Home.jsx
+
+imports:
+
+Hero
+
+Stats
+
+Expertise
+
+Impact
+
+Insights
+
+CTA
+Each section lives independently.
+
+4. Page Architecture
+
+Home Page
+Structure:
+Home
+
+ ├── Navbar
+ │
+ ├── Hero
+ │
+ ├── TrustedOrganizations
+ │
+ ├── ProfessionalHighlights
+ │
+ ├── Statistics
+ │
+ ├── Expertise
+ │
+ ├── FeaturedImpact
+ │
+ ├── LatestInsights
+ │
+ ├── ContactCTA
+ │
+ └── Footer
+
+About Page
+About
+
+ ├── PageHero
+ │
+ ├── Biography
+ │
+ ├── Values
+ │
+ ├── Competencies
+ │
+ ├── EducationTimeline
+ │
+ └── Certifications
+
+Experience Page
+Experience
+
+ ├── PageHero
+ │
+ ├── CareerTimeline
+ │
+ └── AchievementCards
+
+Impact Page
+Impact
+
+ ├── PageHero
+ │
+ ├── ProjectFilters
+ │
+ └── CaseStudies
+
+       ├── Challenge
+       ├── Role
+       ├── Approach
+       └── Outcome
+
+Insights Page
+Insights
+
+ ├── FeaturedArticle
+ │
+ ├── ArticleGrid
+ │
+ └── Categories
+
+Resume Page
+Resume
+
+ ├── DownloadSection
+ │
+ ├── ExperienceSummary
+ │
+ ├── Education
+ │
+ ├── Skills
+ │
+ └── Languages
+
+Contact Page
+Contact
+
+ ├── ContactIntro
+ │
+ ├── ContactInformation
+ │
+ ├── ContactForm
+ │
+ └── SocialLinks
+
+5. Data Architecture
+We avoid hardcoding content inside components.
+Example:
+Instead of:
+<h2>Business Development Officer</h2>
+<p>Managed client onboarding...</p>
+Use:
+experience.js
+Example:
+export const experiences = [
+ {
+   company:
+   "Emagination Power Consulting Ltd",
+
+   role:
+   "Business Development & Operations Officer",
+
+   period:
+   "Aug 2025 - Present",
+
+   achievements:[
+      "Managed business development activities",
+      "Tracked sales pipeline",
+      "Maintained 90%+ client retention"
+   ]
+ }
+]
+Benefits:
+    • Easy CMS migration
+    • Cleaner components
+    • Easier updates
+
+6. Future CMS Strategy
+The first version can use local data.
+Architecture should prepare for CMS.
+Future:
+Current:
+React
+
+↓
+
+Local JS files
+Future:
+React
+
+↓
+
+CMS API
+
+↓
+
+Sanity / WordPress
+
+↓
+
+Content
+No major rewrite required.
+
+7. SEO Architecture
+Each page should have:
+Title
+Description
+Open Graph data
+Example:
+Home:
+Title:
+
+Donath John | Operations & Business Development Professional
+
+
+Description:
+
+Operations professional specializing in business operations,
+project coordination, and strategic execution.
+
+8. Asset Management
+Images:
+assets/images
+Structure:
+profile.jpg
+
+projects/
+
+logos/
+
+icons/
+
+Rules:
+    • Compress images
+    • Use WebP
+    • Lazy load below-fold images
+    • Proper alt text
+
+9. State Management
+No Redux.
+The website is mostly static.
+Use:
+    • React state
+    • Context only when necessary
+Possible future:
+CMS state management.
+
+10. Deployment Architecture
+Recommended:
+Frontend:
+Vercel
+Domain:
+donathjohn.com
+SSL:
+Automatic.
+Analytics:
+Google Analytics.
+
+11. Development Workflow
+Git branches:
+main
+
+development
+
+feature/navbar
+
+feature/home
+
+feature/about
+
+feature/contact
+
+
+12. Implementation Order
+We do not build randomly.
+Order:
+Phase 1
+Foundation
+    • Project setup
+    • Tailwind configuration
+    • Fonts
+    • Design tokens
+    • Routing
+
+Phase 2
+Global Components
+    • Navbar
+    • Footer
+    • Buttons
+    • Cards
+    • Container
+
+Phase 3
+Homepage
+    • Hero
+    • Stats
+    • Expertise
+    • Impact
+
+Phase 4
+Internal Pages
+    • About
+    • Experience
+    • Impact
+    • Resume
+
+Phase 5
+Advanced Features
+    • Blog/CMS
+    • Contact form
+    • Analytics
+    • SEO
+
+Phase 6
+Optimization
+    • Accessibility
+    • Performance
+    • Mobile testing
+

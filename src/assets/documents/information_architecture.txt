@@ -1,0 +1,344 @@
+﻿
+ INFORMATION ARCHITECTURE
+Website Philosophy
+The website should tell a story.
+Not
+Here is my CV.
+Instead
+Here's who I am, the value I create, and why organizations trust me.
+A visitor shouldn't have to "search" for information. Every section should naturally lead to the next.
+
+User Journey
+Every visitor follows a psychological journey.
+Visitor lands
+
+↓
+
+Gets interested
+
+↓
+
+Learns about Donath
+
+↓
+
+Builds trust
+
+↓
+
+Sees evidence
+
+↓
+
+Feels confidence
+
+↓
+
+Makes contact
+Every page supports that journey.
+
+Navigation
+Keep it simple.
+Home
+
+About
+
+Experience
+
+Impact
+
+Insights
+
+Resume
+
+Contact
+Notice there's no "Skills" page.
+Skills belong inside the About page.
+A separate page for skills feels weak because skills alone don't demonstrate capability.
+
+HOME PAGE
+This page sells the brand.
+Section 1 — Hero
+Purpose
+Immediately answer
+Who is Donath?
+Content
+    • Professional portrait 
+    • Strong headline 
+    • Short introduction 
+    • CTA buttons 
+    • Scroll indicator 
+
+Section 2 — Trusted Experience
+Instead of saying
+"I worked with..."
+Display organization logos.
+Example
+Vodafone Foundation
+
+USAID
+
+Sanofi
+
+ELMA
+
+Vitol
+
+AstraZeneca
+Immediately builds credibility.
+
+Section 3 — Professional Snapshot
+Four cards.
+Example
+4+
+
+Years Experience
+
+90%+
+
+Client Retention
+
+6+
+
+Major Programs
+
+100+
+
+Stakeholders Coordinated
+Simple.
+Powerful.
+
+Section 4 — Expertise
+Grid of cards.
+Business Operations
+Project Coordination
+Business Development
+Procurement
+Data Analysis
+Stakeholder Management
+
+Section 5 — Featured Impact
+Not projects.
+Impact stories.
+Example
+M-Mama
+↓
+Challenge
+↓
+Role
+↓
+Outcome
+Button
+Read Case Study
+
+Section 6 — Latest Insights
+Newest articles.
+Keeps website alive.
+
+Section 7 — Contact CTA
+Simple.
+Large.
+Clean.
+Let's Work Together.
+
+ABOUT PAGE
+Purpose
+Build connection.
+
+Professional Story
+Narrative.
+Not bullet points.
+Explain
+    • beginnings 
+    • growth 
+    • motivation 
+    • philosophy 
+
+Core Values
+Cards.
+Integrity
+Collaboration
+Continuous Improvement
+Accountability
+Excellence
+
+Areas of Expertise
+Grouped.
+Operations
+Business
+Leadership
+Technology
+
+Education
+Timeline.
+
+Certifications
+Cards.
+
+EXPERIENCE PAGE
+Timeline.
+Nothing else.
+Every experience includes
+Company
+↓
+Role
+↓
+Duration
+↓
+Responsibilities
+↓
+Achievements
+↓
+Technologies
+↓
+Related projects
+
+Instead of giant paragraphs.
+Use expandable sections.
+Cleaner.
+
+IMPACT PAGE
+This is my favorite page.
+Instead of
+Portfolio
+We tell stories.
+Each project follows exactly the same structure.
+
+Example
+M-Mama
+Challenge
+Supporting emergency maternal transport operations.
+Role
+Operations & Logistics Support.
+Actions
+    • Coordinated field logistics 
+    • Supported reporting 
+    • Stakeholder communication 
+Outcome
+Operational efficiency improved.
+
+Repeat.
+USAID
+Heart to Heart
+Sanofi
+WatotoCare
+etc.
+This feels like consulting.
+
+INSIGHTS PAGE
+Blog.
+Initially
+6 articles.
+Categories
+Operations
+Leadership
+Strategy
+Analytics
+Business Development
+Project Management
+Future CMS ready.
+
+RESUME PAGE
+Instead of embedding PDF.
+Split into sections.
+Experience
+↓
+Education
+↓
+Skills
+↓
+Languages
+↓
+Download PDF
+Looks much more modern.
+
+CONTACT PAGE
+Professional.
+Large heading.
+Short text.
+Contact Form
+↓
+Email
+↓
+Phone
+↓
+LinkedIn
+↓
+Location
+↓
+Availability status
+
+FOOTER
+Minimal.
+Logo
+Navigation
+Email
+LinkedIn
+Copyright
+
+Universal Elements
+Every page contains
+Navbar
+↓
+Hero (optional)
+↓
+Content
+↓
+CTA
+↓
+Footer
+
+SEO Structure
+Each page targets a keyword.
+Home
+Operations Professional Tanzania
+About
+Business Operations Specialist
+Experience
+Operations Manager Experience
+Impact
+Operations Projects
+Insights
+Operations Leadership Articles
+Contact
+Contact Donath John
+
+Content Hierarchy
+This is extremely important.
+Visitors don't read.
+They scan.
+So every page follows
+Large Heading
+
+↓
+
+Small explanation
+
+↓
+
+Visual content
+
+↓
+
+Button
+Never
+Heading
+↓
+Huge paragraph
+↓
+Huge paragraph
+↓
+Huge paragraph
+Modern websites breathe.
+
+Mobile Strategy
+Every section must be designed mobile-first.
+Rules
+    • Single column 
+    • Large tap targets 
+    • No horizontal scrolling 
+    • Short paragraphs 
+    • Cards stack vertically 
+    • Timeline becomes vertical 
+Desktop is simply an enhancement.
+

@@ -48,7 +48,7 @@ const Navbar = () => {
           <span className="font-heading text-xl font-bold tracking-tight text-navy">
             DONATH JOHN
           </span>
-          <span className="hidden md:block font-body text-xs text-dark/50 tracking-wide mt-0.5">
+          <span className="block font-body text-xs text-gold/80 tracking-wide mt-0.5">
             Operations &amp; Business Development Professional
           </span>
         </Link>
